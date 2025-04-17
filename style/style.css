@@ -1,0 +1,182 @@
+/* Utilities */
+/* .navbar {
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: violet;
+} */
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero,
+.testimonial {
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Navigation Styles */
+.navbar {
+  width: 1920px;
+  height: 100px;
+  background-color: #d7bbf2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+
+.logo,
+.page-links ul li a,
+.signin {
+  color: #000;
+}
+
+.logo {
+  font-family: "Nunito", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.page-links {
+  width: 604px;
+}
+
+.page-links ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.page-links ul li {
+  margin-right: 25px;
+}
+
+.page-links ul li:last-child {
+  margin-right: 0;
+}
+
+.page-links ul li a {
+  text-decoration: none;
+}
+
+/* Navigation Right Link Styles */
+.signs {
+  width: 210px;
+}
+
+.signs a {
+  margin-right: 24px;
+}
+
+.signin,
+.signup {
+  text-decoration: none;
+}
+
+.signup {
+  width: 125px;
+  background-color: #60269e;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+/* HERO SECTION */
+.hero {
+  width: 1920px;
+  height: 837px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-link1 {
+  padding: 8px 16px;
+  border: 1px solid #60269e;
+  font-weight: 400;
+  border-radius: 24px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.hero-text h1 {
+  width: 900px;
+  /* height: 146px; */
+  font-size: 75px;
+  font-weight: 700;
+  color: #0d0b32;
+  line-height: 1.01;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.hero-text p {
+  font-size: 24px;
+  width: 728px;
+  text-align: center;
+}
+
+.hero-link2 {
+  background-color: #60269e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+/* TESTIMONIAL STYLES */
+.testimonial {
+  width: 1920px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 225px 93px 225px;
+}
+
+.testimonial-title {
+  width: 884px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0d0b32;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.testimonial-stats {
+  width: 1022px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stat-img {
+  width: 50px;
+  height: 50px;
+}
