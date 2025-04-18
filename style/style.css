@@ -14,7 +14,9 @@
 }
 
 .hero,
-.testimonial {
+.testimonial,
+.our-story,
+.our-story {
   font-family: "PT Sans", sans-serif;
 }
 
@@ -26,7 +28,7 @@ body {
 .navbar {
   width: 1920px;
   height: 100px;
-  background-color: #d7bbf2;
+  background-color: #f8f3fd;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -151,6 +153,7 @@ body {
 
 /* TESTIMONIAL STYLES */
 .testimonial {
+  background-color: #f7f0ff;
   width: 1920px;
   height: 365px;
   display: flex;
@@ -172,11 +175,90 @@ body {
 .testimonial-stats {
   width: 1022px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.stat-img {
+.stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial-stat-img {
   width: 50px;
   height: 50px;
+}
+
+.testimonial-stats-details {
+  width: 177px;
+  height: 50px;
+}
+
+.testimonial-stats-details .number {
+  color: #0d0b32;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1.2%;
+}
+
+.testimonial-stats-details .text {
+  color: #5e00d0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* OUR STORY */
+.our-story {
+  width: 1920px;
+  height: 732px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-story-inner {
+  width: 1213px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.our-story-text {
+  /* width: 478px; */
+  width: 500px;
+  align-self: flex-start;
+}
+
+.our-story-text h2 {
+  font-size: 47px;
+  font-weight: 700;
+  color: #0d0b32;
+  margin-bottom: 32px;
+}
+
+.our-story-text .our-story-text-para1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.our-story-text p {
+  line-height: 1.6;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.africa {
+  color: #5e00d0;
+}
+
+.para {
+  color: #444;
+}
+
+.our-story-image img {
+  width: 572px;
+  height: 500px;
+  border-radius: 20px;
 }
