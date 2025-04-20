@@ -16,8 +16,11 @@
 .hero,
 .testimonial,
 .our-story,
-.our-story {
+.our-story,
+.commitment,
+.call-action {
   font-family: "PT Sans", sans-serif;
+  line-height: 1.6;
 }
 
 body {
@@ -219,7 +222,7 @@ body {
 }
 
 .our-story-inner {
-  width: 1213px;
+  width: 1413px;
   display: flex;
   justify-content: space-around;
 }
@@ -240,6 +243,7 @@ body {
 .our-story-text .our-story-text-para1 {
   font-weight: 700;
   font-size: 26px;
+  width: 478px;
 }
 
 .our-story-text p {
@@ -261,4 +265,153 @@ body {
   width: 572px;
   height: 500px;
   border-radius: 20px;
+}
+
+/* COMMITMENT SECTION */
+.commitment {
+  width: 1920px;
+  height: 732px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.commitment h2 {
+  /* width: 369px; */
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.commitment-content {
+  width: 1150.04px;
+  height: 440.59px;
+  background-color: #f7f0ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.commitment-content img {
+  width: 65.75px;
+  height: 65.74px;
+  margin-bottom: 32px;
+}
+
+.commitment-content-title {
+  /* width: 366px; */
+  font-size: 31.4px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.commitment-content-text {
+  width: 779.12px;
+  font-size: 23.55px;
+  font-weight: 400;
+  color: #444;
+}
+
+/* CALL TO ACTION SECTION */
+.call-action {
+  width: 1920px;
+  height: 1506px;
+  background-color: #f7f0ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+}
+
+.call-action-sec1 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  /* margin-bottom: 128px; */
+}
+
+.call-action-sec1-left {
+  width: 562px;
+}
+
+.call-action-sec1-left h2 {
+  width: 455px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.3;
+  margin-bottom: 32px;
+}
+
+.call-action-sec1-left ul {
+  padding-left: 32px;
+}
+
+.call-action-sec1-left p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* .call-action-sec2-right {
+  width: 563px;
+  height: 552px;
+  position: relative;
+  z-index: -3;
+}
+
+
+
+
+.call-action-sec2-right .img3 {
+  position: absolute;
+  left: -150px;
+  bottom: -50px;
+} */
+
+.call-action-sec2-right {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: -1;
+  position: relative;
+  padding-top: 100px;
+  z-index: 10;
+}
+
+.call-action-sec2-right .img1 {
+  width: 159px;
+  height: 179px;
+  position: absolute;
+  top: 0;
+  right: 55px;
+}
+
+.call-action-sec2-right .img2 {
+  /* width: 593px; */
+  width: 100%;
+  height: 538px;
+  border-radius: 20px;
+  align-self: self-end;
+  z-index: 2;
+}
+
+.call-action-sec2-right .img3 {
+  width: 200px;
+  height: 139px;
+  transform: translate(30px, 20px) rotate(-10deg);
+  stroke: #ddb8924d;
+  position: absolute;
+  left: -180px;
+  bottom: -30px;
+  z-index: 5;
+}
+
+.call-action-sec2 img {
+  width: 1506px;
+  height: 525px;
 }
