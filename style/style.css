@@ -315,6 +315,28 @@ body {
   color: #444;
 }
 
+.commitment-content .btn {
+  width: 48px;
+  height: 48px;
+  background-color: #edfeaa;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+
+.btn--left {
+}
+
+.btn--right {
+}
+
+.commitment-content .btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: green;
+}
+
 /* CALL TO ACTION SECTION */
 .call-action {
   width: 1920px;
