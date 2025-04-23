@@ -13,12 +13,7 @@
   box-sizing: border-box;
 }
 
-.hero,
-.testimonial,
-.our-story,
-.our-story,
-.commitment,
-.call-action {
+.font-styling {
   font-family: "PT Sans", sans-serif;
   line-height: 1.6;
 }
@@ -293,6 +288,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
 
 .commitment-content img {
@@ -318,7 +315,7 @@ body {
 .commitment-content .btn {
   width: 48px;
   height: 48px;
-  background-color: #edfeaa;
+  background-color: #fff;
   border: none;
   border-radius: 50%;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
@@ -326,27 +323,32 @@ body {
 }
 
 .btn--left {
+  left: 0;
+  transform: translate(-30px, 0);
 }
 
 .btn--right {
+  right: 0;
+  transform: translate(30px, 0);
 }
 
 .commitment-content .btn-icon {
   width: 24px;
   height: 24px;
-  stroke: green;
+  stroke: #000;
 }
 
 /* CALL TO ACTION SECTION */
 .call-action {
   width: 1920px;
-  height: 1506px;
+  /* height: 1506px; */
   background-color: #f7f0ff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 100px;
+  padding: 150px 0;
 }
 
 .call-action-sec1 {
@@ -354,7 +356,6 @@ body {
   justify-content: center;
   gap: 150px;
   margin-bottom: 128px;
-  margin-top: 200px;
 }
 
 .call-action-sec1-left {
@@ -442,16 +443,123 @@ body {
 .call-action-section2-left h2 {
   font-size: 45px;
   line-height: 1.1;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 .call-action-section2-left p {
+  width: 430px;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 16px;
+  line-height: 1.4;
+  margin-bottom: 32px;
+}
+
+.call-action-section2-left button {
+  width: 160px;
+  height: 65px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #60269e;
+  font-size: 20px;
 }
 
 .call-action-section2-right img {
   width: 688.68px;
   height: 305px;
+}
+
+/* OUR TEAM */
+.our-team {
+  width: 1920px;
+  height: 766px;
+  background-color: #f8f3fd;
+  border: 3px solid red;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-team-top {
+  text-align: center;
+}
+
+.our-team-top h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.02px;
+  margin-bottom: 16px;
+}
+
+.our-team-top p {
+  width: 575px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.our-team-members {
+  width: 1200px;
+  height: 316px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.team-member {
+  width: 276px;
+  height: 316px;
+  border: 2px solid green;
+  padding: 8px 16px;
+  border-radius: 14px;
+  border: 1px solid #808080;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 12px 0;
+}
+
+.team-member h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0;
+}
+
+.team-member span {
+  color: #6941c6;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.team-member p {
+  width: 200px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.media-icon {
+  margin-right: 12px;
 }
