@@ -322,6 +322,7 @@ body {
   border-radius: 50%;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
   position: absolute;
+  cursor: pointer;
 }
 
 .btn--left {
@@ -413,7 +414,6 @@ body {
 }
 
 .call-action-sec2-right .img2 {
-  /* width: 593px; */
   width: 100%;
   height: 538px;
   border-radius: 20px;
@@ -521,7 +521,6 @@ body {
   border-radius: 14px;
   border: 1px solid #808080;
   background-color: #fff;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -572,8 +571,6 @@ body {
   height: 421.67px;
   color: #fff;
   background-color: #101828;
-  /* padding: 85.33px 0 64px 0; */
-
   display: flex;
   align-items: center;
   gap: 85.33px;
@@ -582,10 +579,7 @@ body {
 .footer-container {
   width: 1706.67px;
   height: 272.33px;
-  /* padding: 0 42.67px; */
   margin: 0 auto;
-  /* border: 2px solid red; */
-
   display: flex;
   justify-content: space-between;
   gap: 64px;
@@ -593,7 +587,6 @@ body {
 
 .footer-left-logo-container {
   width: 426.67px;
-  /* height: 152.38px; */
   margin-bottom: 32px;
 }
 
